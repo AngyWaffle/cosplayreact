@@ -10,7 +10,11 @@ function burgerMenu() {
 
 function closeBurger() {
     var x = document.getElementById("myLinks");
-    x.style.display = "none";
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+
+    }
 }
 
 function showNotification(message) {

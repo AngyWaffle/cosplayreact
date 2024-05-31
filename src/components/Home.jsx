@@ -5,7 +5,6 @@ import { updateCart } from './cartUtils';
 import { closeBurger, showNotification } from '../script';
 
 function Home() {
-    closeBurger();
     const [featuredProducts, setFeaturedProducts] = useState([]);
     const navigate = useNavigate();
     const [cartCount, setCartCount] = useState(0);
