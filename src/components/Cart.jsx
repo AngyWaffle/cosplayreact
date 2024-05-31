@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { updateCart } from './cartUtils';
+import { closeBurger } from '../script';
 
 function Cart() {
+  closeBurger();
     const [cartProducts, setCartProducts] = useState([]);
     const [total, setTotal] = useState(0);
   

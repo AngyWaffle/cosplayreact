@@ -8,6 +8,11 @@ function burgerMenu() {
     }
 }
 
+function closeBurger() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+}
+
 function showNotification(message) {
     const notification = document.createElement('div');
     notification.textContent = message;
@@ -21,6 +26,6 @@ function showNotification(message) {
     setTimeout(() => notification.remove(), 3000); // Remove after 3 seconds
   }
 
-export { showNotification };
+export { showNotification, closeBurger };
 
 export default burgerMenu;

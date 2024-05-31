@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import '../topnav.css';
+import { closeBurger } from "../script";
 
 class About extends Component {
     render () {
+      closeBurger();
         return(
             <main className="container mx-auto p-6">
                 <section className="my-8">

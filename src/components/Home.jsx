@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useHistory, useNavigate } from 'react-router-dom';
 import { updateCart } from './cartUtils';
-import { showNotification } from '../script';
+import { closeBurger, showNotification } from '../script';
 
 function Home() {
+    closeBurger();
     const [featuredProducts, setFeaturedProducts] = useState([]);
     const navigate = useNavigate();
     const [cartCount, setCartCount] = useState(0);

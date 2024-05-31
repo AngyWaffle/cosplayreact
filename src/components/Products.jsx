@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import { updateCart } from './cartUtils';
-import { showNotification } from '../script';
+import { closeBurger, showNotification } from '../script';
 
 
 function Products() {
-  
+  closeBurger();
   const [products, setProducts] = useState([]);
   const [cartCount, setCartCount] = useState(0);
   

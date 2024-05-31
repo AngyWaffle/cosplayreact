@@ -37,8 +37,8 @@ function Topnav() {
       return (
         <HashRouter>
             <nav className="topnav">
+            <NavLink className="links" to="/"><strong>Home</strong></NavLink>
                 <div id="myLinks">
-                    <NavLink className="links" to="/"><strong>Home</strong></NavLink>
                     <NavLink className="links" to="/products"><strong>Products</strong></NavLink>
                     <NavLink className="links" to="/about"><strong>About Us</strong></NavLink>
                     <NavLink className="links hover:underline" to="/cart">
