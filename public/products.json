@@ -1,0 +1,46 @@
+
+[
+    {
+      "id": 1,
+      "name": "Epic Armor",
+      "description": "Protect yourself with our finest armor pieces.",
+      "price": 99.99,
+      "image": "images/armor.webp"
+    },
+    {
+      "id": 2,
+      "name": "Legendary Sword",
+      "description": "Wield power with our legendary swords.",
+      "price": 149.99,
+      "image": "images/sword.webp"
+    },
+    {
+      "id": 3,
+      "name": "Mighty Shield",
+      "description": "Defend yourself with our durable shields.",
+      "price": 79.99,
+      "image": "images/shield.webp"
+    },
+    {
+      "id": 4,
+      "name": "Warrior Helmet",
+      "description": "Stay safe with our sturdy helmets.",
+      "price": 59.99,
+      "image": "images/helmet.webp"
+    },
+    {
+      "id": 5,
+      "name": "Mystic Cloak",
+      "description": "Blend into the shadows with our mystic cloaks.",
+      "price": 69.99,
+      "image": "images/cloak.webp"
+    },
+    {
+      "id": 6,
+      "name": "Stealth Boots",
+      "description": "Move silently with our stealth boots.",
+      "price": 49.99,
+      "image": "images/boots.webp"
+    }
+  ]
+  

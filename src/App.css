@@ -1,0 +1,71 @@
+@media screen and (min-width: 992px) {
+  .topnav {
+      overflow: hidden;
+      background-color: #496D89;
+      display: flex;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 500;
+  }
+  
+  .topnav .links {
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .topnav .links:hover {
+      background-color: #ddd;
+      color: #141414;
+      cursor:pointer;
+  }
+  
+  #myLinks{
+      display: flex;
+  }
+      
+  .icon{
+      display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Style the navigation menu */
+  .topnav {
+      overflow: hidden;
+      background-color: #496D89;
+      position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+      display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+      background: #496D89;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+}
